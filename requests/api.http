@@ -1,0 +1,72 @@
+# Send Request
+GET http://127.0.0.1:8000/api/auth/user
+Authorization: Token e6aadb57991535a2f195021456a18a65d057df599afc4846846aae16b9973006
+
+###
+
+# Send Request
+POST http://127.0.0.1:8000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "John",
+    "email": "john@example.com",
+    "password": "1234"
+}
+
+###
+
+# Send Request
+POST http://127.0.0.1:8000/api/auth/logout
+Authorization: Token e6aadb57991535a2f195021456a18a65d057df599afc4846846aae16b9973006
+
+###
+
+# Send Request
+POST http://127.0.0.1:8000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "Mary",
+    "password": "1234"
+}
+
+###
+
+# Send Request
+POST http://127.0.0.1:8000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "John",
+    "password": "1234"
+}
+
+###
+
+# Send Request
+POST http://127.0.0.1:8000/api/messaging/message
+Content-Type: application/json
+
+{
+    "sender": 2,
+    "recipient": 8,
+    "time": "2020-07-31 15:39:56.052690",
+    "subject": "test subject line",
+    "body": "test body",
+    "favorite": 0,
+    "status": "sent"
+}
+
+###
+
+# Send Request
+GET http://127.0.0.1:8000/api/messaging/message
+Content-Type: application/json
+
+###
+
+# Send Request
+GET http://127.0.0.1:8000/api/messaging/inbox/toon
+
+###
