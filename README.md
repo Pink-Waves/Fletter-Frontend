@@ -23,6 +23,4 @@ Run: `python manage.py makemigrations accounts relationships userMessages`
 
 # Step 6: run python manage.py createsuperuser and then input your personal development login credentials
 
-To run backend:
-
-Go to backend/src then do python manage.py runserver.
+To run backend: `python manage.py runserver.`
