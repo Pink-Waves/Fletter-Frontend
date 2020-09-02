@@ -15,7 +15,7 @@ export EMAIL_HOST_USER = host email in string quotes
 
 If your gmail host isn't working, go to this link to allow Python sending emails from your gmail: https://www.google.com/settings/security/lesssecureapps
 
-# Step 4: **DO THIS BEFORE RUNNING ANY COMMANDS FROM python manage.py** (just in case)
+# Step 4: **DO THIS BEFORE RUNNING ANY COMMANDS FROM python manage.py**
 
 Run: `python manage.py makemigrations accounts relationships userMessages`
 
