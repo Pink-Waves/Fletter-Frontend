@@ -20,7 +20,10 @@ class RelationshipAPIView(generics.GenericAPIView):
             modified_data['requester'] = user.id
             
         try:
-            modified_data['addressee'] = ExtendedUser.objects.get(username=request.data['addressee']).id
+            addressee_user = ExtendedUser.objects.get(username=request.data['addressee'])
+            if addressee_user.is_active == False:
+                return Response("This addressee hasn't confirmed their account yet!")
+            modified_data['addressee'] = addressee_user.id
         except:
             return Response("This username does not exist!")
 
