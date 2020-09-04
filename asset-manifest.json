@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Fletter-Frontend/static/css/main.0cf09d3c.chunk.css",
+    "main.js": "/Fletter-Frontend/static/js/main.52600c2b.chunk.js",
+    "main.js.map": "/Fletter-Frontend/static/js/main.52600c2b.chunk.js.map",
+    "runtime-main.js": "/Fletter-Frontend/static/js/runtime-main.e1acb3f2.js",
+    "runtime-main.js.map": "/Fletter-Frontend/static/js/runtime-main.e1acb3f2.js.map",
+    "static/js/2.3eca5cd1.chunk.js": "/Fletter-Frontend/static/js/2.3eca5cd1.chunk.js",
+    "static/js/2.3eca5cd1.chunk.js.map": "/Fletter-Frontend/static/js/2.3eca5cd1.chunk.js.map",
+    "index.html": "/Fletter-Frontend/index.html",
+    "precache-manifest.fcdd6542494ab68a420158885c3361af.js": "/Fletter-Frontend/precache-manifest.fcdd6542494ab68a420158885c3361af.js",
+    "service-worker.js": "/Fletter-Frontend/service-worker.js",
+    "static/css/main.0cf09d3c.chunk.css.map": "/Fletter-Frontend/static/css/main.0cf09d3c.chunk.css.map",
+    "static/js/2.3eca5cd1.chunk.js.LICENSE.txt": "/Fletter-Frontend/static/js/2.3eca5cd1.chunk.js.LICENSE.txt",
+    "static/media/Logo.png": "/Fletter-Frontend/static/media/Logo.7652e3a2.png",
+    "static/media/birdPost2.png": "/Fletter-Frontend/static/media/birdPost2.ac4b1ebb.png",
+    "static/media/earth.png": "/Fletter-Frontend/static/media/earth.c1c52507.png",
+    "static/media/mailbox.png": "/Fletter-Frontend/static/media/mailbox.202d3a8e.png",
+    "static/media/message.png": "/Fletter-Frontend/static/media/message.8a9cfb0a.png",
+    "static/media/postbirdie.png": "/Fletter-Frontend/static/media/postbirdie.1fdf5b40.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1acb3f2.js",
+    "static/js/2.3eca5cd1.chunk.js",
+    "static/css/main.0cf09d3c.chunk.css",
+    "static/js/main.52600c2b.chunk.js"
+  ]
+}
